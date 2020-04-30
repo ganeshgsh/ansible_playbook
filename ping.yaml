@@ -1,6 +1,6 @@
 ---
 - name: Ping Testing
-  hosts: test
+  hosts: Ganesh
   gather_facts: no
   tasks:
   - name: ping all hosts

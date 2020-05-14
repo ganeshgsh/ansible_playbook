@@ -1,6 +1,6 @@
 ---
 - name: Ping Testing
-  hosts: ping
+  hosts: localhost
   gather_facts: no
   tasks:
   - name: ping all hosts
